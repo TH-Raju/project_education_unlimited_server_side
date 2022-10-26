@@ -17,12 +17,9 @@ app.get('/courses', (req, res) => {
 
 app.get('/courses/:id', (req, res) => {
     const id = req.params.id;
-    if (id == '0') {
-        res.send(courses);
-    } else {
-        const selectCourse = courses.find(n => n.id == id);
-        res.send(selectCourse);
-    }
+    const selectCourse = courses.find(n => n.id == id);
+    res.send(selectCourse);
+
 
 });
 
