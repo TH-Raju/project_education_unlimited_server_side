@@ -4,48 +4,181 @@
         "title": "Python",
         "img": "https://images.unsplash.com/photo-1649180556628-9ba704115795?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwcHJvZ3JhbW1pbmclMjBsb2dvfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         "body": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured, object-oriented and functional programming.",
-        "section": {
-            "variable": {
-                "v_name": "Variable",
-                "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
-                "value": "variable_name = variable_value"
-            }
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
         }
     },
     {
         "id": 2,
         "title": "JavaScript",
         "img": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8amF2YXNjcmlwdHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries"
+        "body": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     },
     {
         "id": 3,
         "title": "Java",
         "img": "https://images.unsplash.com/photo-1585332889055-059af80a9b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8amF2YXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible."
+        "body": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     },
     {
         "id": 4,
         "title": "PHP",
         "img": "https://images.unsplash.com/photo-1599507593499-a3f7d7d97667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YyUyMHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993. The PHP reference implementation is now produced by The PHP Group"
+        "body": "PHP is a general-purpose scripting language geared toward web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993. The PHP reference implementation is now produced by The PHP Group",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     },
     {
         "id": 5,
         "title": "HTML/CSS",
         "img": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aHRtbCUyMGNzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript."
+        "body": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     },
     {
         "id": 6,
         "title": "SQL Database",
         "img": "https://images.unsplash.com/photo-1633412802994-5c058f151b66?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c3FsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system"
+        "body": "SQL is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     },
     {
         "id": 7,
         "title": "Dart",
         "img": "https://images.unsplash.com/photo-1617040619263-41c5a9ca7521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGFydCUyMHByb2dyYW1taW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "body": "Dart is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications. It is an object-oriented, class-based, garbage-collected language with C-style syntax"
+        "body": "Dart is a programming language designed for client development, such as for the web and mobile apps. It is developed by Google and can also be used to build server and desktop applications. It is an object-oriented, class-based, garbage-collected language with C-style syntax",
+        "variable": {
+            "v_name": "Variable",
+            "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
+            "value": "variable_name = variable_value"
+        },
+        "condition": {
+            "v_name": "Condition",
+            "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
+            "value": "if condition: \n set value"
+        },
+        "loop": {
+            "v_name": "Loop",
+            "v_desc": "In computer programming, a loop is a sequence of instruction s that is continually repeated until a certain condition is reached. Typically, a certain process is done, such as getting an item of data and changing it, and then some condition is checked such as whether a counter has reached a prescribed number.",
+            "value": "for loop for each_value_name in value/list \n statement"
+        },
+        "function": {
+            "v_name": "Function",
+            "v_desc": "A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.",
+            "value": "def function_name(): \n statement"
+        }
     }
 ]
