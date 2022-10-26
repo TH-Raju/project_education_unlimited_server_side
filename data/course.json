@@ -33,12 +33,12 @@
         "variable": {
             "v_name": "Variable",
             "v_desc": "In computer programming, a variable is an abstract storage location paired with an associated symbolic name, which contains some known or unknown quantity of information referred to as a value; or in simpler terms, a variable is a named container for a particular set of bits or type of data",
-            "value": "variable_name = variable_value"
+            "value": "let/const variable_name = variable_value;"
         },
         "condition": {
             "v_name": "Condition",
             "v_desc": "In computer science, conditionals are programming language commands for handling decisions. Specifically, conditionals perform different computations or actions depending on whether a programmer-defined boolean condition evaluates to true or false.",
-            "value": "if condition: \n set value"
+            "value": "if (condition) <br> { \n set value}"
         },
         "loop": {
             "v_name": "Loop",
